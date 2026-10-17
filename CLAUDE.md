@@ -13,7 +13,7 @@ Daily Macedonian word game (Pedantle-style): reveal a hidden Wikipedia intro wor
 ## Project facts (owner fills in)
 
 - GitHub user: Zografska
-- LAUNCH_DATE: TODO (2026-11-01, puzzle #1)
+- LAUNCH_DATE: unset until the first public puzzle. Only used for puzzle #N and the archive start; read it from the `LAUNCH_DATE` var, never hardcode it
 - Cloudflare account id `47fff1d6ee5e294b203ff8ab6a8e2947`
 - KV binding `WIKISHTO_KV` · id `45901336fc8b4664b716dbb7cd9ba725` · preview_id `7e12b3a0e0e341c098b21c4623989b25`
 - D1 binding `DB` · database_name `wikishto` · database_id `fc0146c0-6b43-41c6-b22c-85b4ce919d2c`

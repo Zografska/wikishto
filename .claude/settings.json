@@ -1,0 +1,28 @@
+{
+  "model": "sonnet",
+  "permissions": {
+    "allow": [
+      "Bash(pnpm:*)",
+      "Bash(uv run:*)",
+      "Bash(git status)",
+      "Bash(git diff:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git switch:*)",
+      "Bash(git checkout -b:*)"
+    ],
+    "deny": [
+      "Read(pipeline/data/**)",
+      "Read(pipeline/out/**)",
+      "Read(**/node_modules/**)",
+      "Read(**/dist/**)",
+      "Read(**/.wrangler/**)",
+      "Read(**/pnpm-lock.yaml)",
+      "Read(**/uv.lock)",
+      "Bash(git push:*)",
+      "Bash(wrangler deploy:*)",
+      "Bash(npx wrangler deploy:*)",
+      "Bash(pnpm wrangler deploy:*)"
+    ]
+  }
+}
